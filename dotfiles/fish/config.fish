@@ -146,9 +146,8 @@ alias sshhome="autossh -M -0 martin@193.71.243.35 -p 5555"
 # Notes
 alias notedir="cd Library/Mobile\ Documents/iCloud~md\~obsidian/Documents/notes/"
 
-#neofetch
-pfetch
 
 alias clipfix="wl-paste -t text -w sh -c 'xclip -selection clipboard -o > /dev/null 2> /dev/null || xclip -selection clipboard'"
 
-#starship init fish | source
+pfetch
+starship init fish | source

@@ -10,6 +10,7 @@
     pkgs.lazygit
     pkgs.lazydocker
 
+    pkgs.pfetch
     pkgs.tmux
     pkgs.zoxide
     pkgs.starship
