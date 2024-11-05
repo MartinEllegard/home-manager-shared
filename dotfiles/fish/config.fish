@@ -21,6 +21,12 @@ if test "$os" = Darwin
 else if test "$os" = Linux
     # do things for Linux
     set -U fish_user_paths $HOME/.local/bin $HOME/.nix-profile/bin $HOME/.cargo/bin $HOME/.cargo/bin $HOME/go/bin $fish_user_paths
+    if test -e HYPRSTARTED = STARTED
+        if test -e RANDOMBGRUNNING = RUNNING
+            set -Ux RANDOMBGRUNNING RUNNING
+            hyprctl dispatch exec ~/.config/hypr/scripts/random-bg.sh
+        end
+    end
 else
     # do things for other operating systems
 end
