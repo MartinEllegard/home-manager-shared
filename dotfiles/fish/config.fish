@@ -17,10 +17,10 @@ set --export ASPNETCORE_URLS "http://*:8080"
 
 if test "$os" = Darwin
     # do things for macOS
-    set -U fish_user_paths /Users/martin/.local/bin /Users/martin/.local.bin /Applications /opt/homebrew/bin /opt/homebrew/sbin /opt/homebrew/opt/libpq/bin /Users/martin/go/bin /Users/martin/.omnisharp/bin /Users/martin/.cargo/bin
+    set -U fish_user_paths /Users/martin/.local/bin /Users/martin/.local.bin /Users/martin/.nix-profile/bin /Applications /opt/homebrew/bin /opt/homebrew/sbin /opt/homebrew/opt/libpq/bin /Users/martin/go/bin /Users/martin/.omnisharp/bin /Users/martin/.cargo/bin
 else if test "$os" = Linux
     # do things for Linux
-    set -U fish_user_paths $HOME/.local/bin $HOME/.cargo/bin $HOME/go/bin $fish_user_paths
+    set -U fish_user_paths $HOME/.local/bin $HOME/.nix-profile/bin $HOME/.cargo/bin $HOME/.cargo/bin $HOME/go/bin $fish_user_paths
 else
     # do things for other operating systems
 end
