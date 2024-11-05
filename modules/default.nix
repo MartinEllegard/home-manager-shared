@@ -16,7 +16,7 @@
   ];
 
   home.file = {
-    ".config/fish".source = ../dotfiles/fish;
+    ".config/fish/config.fish".source = ../dotfiles/fish/config.fish;
 
     ".config/nvim".source = ../dotfiles/nvim;
     ".config/helix".source = ../dotfiles/helix;
