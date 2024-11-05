@@ -27,6 +27,7 @@
       "wallpapers/".source = wallpapers;
 
       ".config/fish/config.fish".source = ../dotfiles/fish/config.fish;
+      ".config/fish/conf.d/nix.fish".source = ../dotfiles/fish/conf.d/nix.fish;
 
       ".config/nvim".source = ../dotfiles/nvim;
       ".config/helix".source = ../dotfiles/helix;
