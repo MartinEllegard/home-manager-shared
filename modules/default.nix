@@ -16,18 +16,27 @@
     pkgs.starship
   ];
 
-  home.file = {
-    ".config/fish/config.fish".source = ../dotfiles/fish/config.fish;
+  home.file =
+    let
+      wallpapers = builtins.fetchGit {
+        url = "https://github.com/MartinEllegard/wallpapers";
+        rev = "76e3f418b95f5e46f2f30a0c15c1258c1d060d1b";
+      };
+    in
+    {
+      "wallpapers/".source = wallpapers;
 
-    ".config/nvim".source = ../dotfiles/nvim;
-    ".config/helix".source = ../dotfiles/helix;
+      ".config/fish/config.fish".source = ../dotfiles/fish/config.fish;
 
-    ".config/bottom".source = ../dotfiles/bottom;
-    ".config/btop".source = ../dotfiles/btop;
+      ".config/nvim".source = ../dotfiles/nvim;
+      ".config/helix".source = ../dotfiles/helix;
 
-    ".config/starship".source = ../dotfiles/starship;
-    ".config/tmux".source = ../dotfiles/tmux;
-    ".tmux.conf".source = ../dotfiles/tmux.conf;
-    ".config/zellij".source = ../dotfiles/zellij;
-  };
+      ".config/bottom".source = ../dotfiles/bottom;
+      ".config/btop".source = ../dotfiles/btop;
+
+      ".config/starship".source = ../dotfiles/starship;
+      ".config/tmux".source = ../dotfiles/tmux;
+      ".tmux.conf".source = ../dotfiles/tmux.conf;
+      ".config/zellij".source = ../dotfiles/zellij;
+    };
 }
