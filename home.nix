@@ -42,18 +42,18 @@
     {
       "wallpapers/".source = wallpapers;
 
-      ".config/fish/config.fish".source = ../dotfiles/fish/config.fish;
-      ".config/fish/conf.d/nix.fish".source = ../dotfiles/fish/conf.d/nix.fish;
+      ".config/fish/config.fish".source = ./dotfiles/fish/config.fish;
+      ".config/fish/conf.d/nix.fish".source = ./dotfiles/fish/conf.d/nix.fish;
 
-      ".config/nvim".source = ../dotfiles/nvim;
-      ".config/helix".source = ../dotfiles/helix;
+      ".config/nvim".source = ./dotfiles/nvim;
+      ".config/helix".source = ./dotfiles/helix;
 
-      ".config/bottom".source = ../dotfiles/bottom;
-      ".config/btop".source = ../dotfiles/btop;
+      ".config/bottom".source = ./dotfiles/bottom;
+      ".config/btop".source = ./dotfiles/btop;
 
-      ".config/starship".source = ../dotfiles/starship;
-      ".config/tmux".source = ../dotfiles/tmux;
-      ".tmux.conf".source = ../dotfiles/tmux.conf;
-      ".config/zellij".source = ../dotfiles/zellij;
+      ".config/starship".source = ./dotfiles/starship;
+      ".config/tmux".source = ./dotfiles/tmux;
+      ".tmux.conf".source = ./dotfiles/tmux.conf;
+      ".config/zellij".source = ./dotfiles/zellij;
     };
 }
