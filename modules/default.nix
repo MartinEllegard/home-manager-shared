@@ -2,18 +2,34 @@
 {
   # Add common programs for home
   home.packages = [
+    # Shell
     pkgs.fish
+    pkgs.zsh
 
+    # Editors
     pkgs.neovim
     pkgs.helix
 
+    # Dev tools
+    pkgs.insomnia
     pkgs.lazygit
     pkgs.lazydocker
 
+    # Terminal enhncements
     pkgs.pfetch
     pkgs.tmux
     pkgs.zoxide
     pkgs.starship
+    pkgs.ripgrep
+    pkgs.eza
+    pkgs.fd
+
+    # Dev
+    pkgs.uv
+    pkgs.go
+    #pkgs.dotnet_
+    pkgs.rustup
+
   ];
 
   home.file =
