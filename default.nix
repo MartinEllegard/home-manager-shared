@@ -49,6 +49,7 @@
       ".config/nvim/init.lua".source = ./dotfiles/nvim/init.lua;
       ".config/nvim/LICENSE".source = ./dotfiles/nvim/LICENSE;
       ".config/nvim/stylua.toml".source = ./dotfiles/nvim/stylua.toml;
+      ".config/nvim/.neoconf.json".source = ./dotfiles/nvim/.neoconf.json;
       ".config/helix".source = ./dotfiles/helix;
 
       ".config/bottom".source = ./dotfiles/bottom;
