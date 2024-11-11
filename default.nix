@@ -45,7 +45,10 @@
       ".config/fish/config.fish".source = ./dotfiles/fish/config.fish;
       ".config/fish/conf.d/nix.fish".source = ./dotfiles/fish/conf.d/nix.fish;
 
-      ".config/nvim".source = ./dotfiles/nvim;
+      ".config/nvim/lua".source = ./dotfiles/nvim/lua;
+      ".config/nvim/init.lua".source = ./dotfiles/nvim/init.lua;
+      ".config/nvim/LICENSE".source = ./dotfiles/nvim/LICENSE;
+      ".config/nvim/stylua.toml".source = ./dotfiles/nvim/stylua.toml;
       ".config/helix".source = ./dotfiles/helix;
 
       ".config/bottom".source = ./dotfiles/bottom;
