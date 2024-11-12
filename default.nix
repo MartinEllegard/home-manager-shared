@@ -30,6 +30,9 @@
     #pkgs.dotnet_
     pkgs.rustup
 
+    # Browser
+    pkgs.google-chrome
+
   ];
 
   home.file =
