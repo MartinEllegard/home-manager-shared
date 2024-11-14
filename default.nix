@@ -15,20 +15,28 @@
     pkgs.lazygit
     pkgs.lazydocker
 
-    # Terminal enhncements
+    # Terminal candy
     pkgs.pfetch
-    pkgs.tmux
-    pkgs.zoxide
     pkgs.starship
+
+    # Terminal utils
+    pkgs.tmux
     pkgs.ripgrep
     pkgs.eza
     pkgs.fd
+    pkgs.jq
+    pkgs.zoxide
+    pkgs.gh
+    pkgs.lazydocker
+    pkgs.lazygit
 
     # Dev
     pkgs.uv
     pkgs.go
-    #pkgs.dotnet_
     pkgs.rustup
+    pkgs.nodejs
+    pkgs.unzip
+    pkgs.dotnet-sdk_8
 
   ];
 
