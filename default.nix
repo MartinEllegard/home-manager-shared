@@ -11,7 +11,7 @@
     pkgs.helix
 
     # Dev tools
-    pkgs.insomnia
+    # pkgs.insomnia
     pkgs.lazygit
     pkgs.lazydocker
 
