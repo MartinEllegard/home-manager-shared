@@ -27,8 +27,7 @@
     pkgs.jq
     pkgs.zoxide
     pkgs.gh
-    pkgs.lazydocker
-    pkgs.lazygit
+    pkgs.btop
 
     # Dev
     pkgs.uv

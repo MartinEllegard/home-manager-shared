@@ -82,8 +82,8 @@ alias .5='cd ../../../../..'
 ## Software update
 if test "$os" = Darwin
     # do things for macOS
-    alias os-refresh-update="brew update && brew upgrade" # Update brew pkg db and update packages
-    alias os-update="brew upgrade" # Update brew pkg db and update packages
+    alias os-update="cd ~/nix && nix flake update" # update nix inputs
+    alias os-upgrade="cd ~/nix && ni" # Update brew pkg db and update packages
     alias os-remove="brew remove" # Update brew pkg db and update packages
     alias os-install="brew install"
     alias os-search="brew search"
