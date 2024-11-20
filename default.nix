@@ -47,24 +47,32 @@
       };
     in
     {
+      # Source wallaper git into wallpaper directory
       "wallpapers/".source = wallpapers;
 
-      ".config/fish/config.fish".source = ./dotfiles/fish/config.fish;
-      ".config/fish/conf.d/nix.fish".source = ./dotfiles/fish/conf.d/nix.fish;
+      # Fish config
+      ".config/fish/config.fish".source = ./config/fish/config.fish;
+      ".config/fish/conf.d/nix.fish".source = ./config/fish/conf.d/nix.fish;
 
-      ".config/nvim/lua".source = ./dotfiles/nvim/lua;
-      ".config/nvim/init.lua".source = ./dotfiles/nvim/init.lua;
-      ".config/nvim/LICENSE".source = ./dotfiles/nvim/LICENSE;
-      ".config/nvim/stylua.toml".source = ./dotfiles/nvim/stylua.toml;
-      ".config/nvim/.neoconf.json".source = ./dotfiles/nvim/.neoconf.json;
-      ".config/helix".source = ./dotfiles/helix;
+      # Neovim config
+      ".config/nvim/lua".source = ./config/nvim/lua;
+      ".config/nvim/init.lua".source = ./config/nvim/init.lua;
+      ".config/nvim/LICENSE".source = ./config/nvim/LICENSE;
+      ".config/nvim/stylua.toml".source = ./config/nvim/stylua.toml;
+      ".config/nvim/.neoconf.json".source = ./config/nvim/.neoconf.json;
+      ".config/helix".source = ./config/helix;
 
-      ".config/bottom".source = ./dotfiles/bottom;
-      ".config/btop".source = ./dotfiles/btop;
+      # Wezterm
+      ".config/wezterm/wezterm.lua".source = ./config/wezterm/wezterm.lua;
+      ".config/wezterm/safe-keybindings-mac.lua".source = ./config/wezterm/safe-keybindings-mac.lua;
 
-      ".config/starship".source = ./dotfiles/starship;
-      ".config/tmux".source = ./dotfiles/tmux;
-      ".tmux.conf".source = ./dotfiles/tmux.conf;
-      ".config/zellij".source = ./dotfiles/zellij;
+      # Other configs
+      ".config/bottom".source = ./config/bottom;
+      ".config/btop".source = ./config/btop;
+
+      ".config/starship".source = ./config/starship;
+      ".config/tmux".source = ./config/tmux;
+      ".tmux.conf".source = ./config/tmux.conf;
+      ".config/zellij".source = ./config/zellij;
     };
 }
