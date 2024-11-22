@@ -28,6 +28,7 @@
     pkgs.zoxide
     pkgs.gh
     pkgs.btop
+    pkgs.btm
 
     # Dev
     pkgs.uv
