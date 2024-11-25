@@ -27,8 +27,10 @@
     pkgs.jq
     pkgs.zoxide
     pkgs.gh
+
+    # Resource monitor
     pkgs.btop
-    pkgs.btm
+    pkgs.bottom
 
     # Dev
     pkgs.uv
