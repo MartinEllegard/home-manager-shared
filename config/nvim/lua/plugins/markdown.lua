@@ -29,11 +29,11 @@ return {
       workspaces = {
         {
           name = "personal",
-          path = "~/Library/Mobile\\ Documents/iCloud~md\\~obsidian/Documents/notes/",
+          path = "~/Library/Mobile\\ Documents/iCloud~md\\~obsidian/Documents/notes",
         },
         {
           name = "ais",
-          path = "~/git/ksat/ais-api/wiki/",
+          path = "~/git/ksat/ais-api/wiki",
         },
       },
 
