@@ -28,12 +28,10 @@ return {
     opts = {
       workspaces = {
         {
-          name = "personal",
-          path = "~/Library/Mobile\\ Documents/iCloud~md\\~obsidian/Documents/notes",
-        },
-        {
-          name = "ais",
-          path = "~/git/ksat/ais-api/wiki",
+          name = "buf-parent",
+          path = function()
+            return assert(vim.fs.dirname(vim.api.nvim_buf_get_name(0)))
+          end,
         },
       },
 
