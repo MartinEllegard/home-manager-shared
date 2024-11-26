@@ -38,6 +38,9 @@ return {
       },
 
       -- see below for full list of options 👇
+      ui = {
+        enable = false,
+      },
     },
   },
 }
