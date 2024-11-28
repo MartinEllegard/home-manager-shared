@@ -8,7 +8,8 @@ elseif theme == "gruvbox" then
 end
 
 return {
-	color_scheme = "Gruvbox dark, medium (base16)",
+	-- color_scheme = "Gruvbox dark, medium (base16)",
+	color_scheme = "Tokyo Night",
 	enable_tab_bar = false,
 	font_size = 15.0,
 
